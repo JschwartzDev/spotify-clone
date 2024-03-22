@@ -1,0 +1,15 @@
+:root {
+  --dark-grey: #000001;
+  --light-grey: #121212;
+  --lighter-grey: #242424;
+
+  --text-color: lightgrey;
+
+  --border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

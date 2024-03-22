@@ -1,0 +1,6 @@
+.side-bar-wrapper {
+  min-height: 90vh;
+  width: calc(20% - 10px);
+
+  background-color: var(--dark-grey);
+}

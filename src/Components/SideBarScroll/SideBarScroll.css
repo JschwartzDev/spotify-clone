@@ -1,0 +1,7 @@
+.side-bar-scroll-wrapper {
+  min-height: 70vh;
+  width: 100%;
+  background-color: var(--light-grey);
+  border: 1px solid black;
+  color: var(--text-color);
+}
