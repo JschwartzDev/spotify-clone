@@ -7,7 +7,7 @@ const AboutArtist = ({ data }) => {
         alt=""
         className="artist-image mb-10"
       />
-      <h3 className="mb-10">{data}</h3>
+      <h3 className="mb-10 h-underline">{data}</h3>
       <div className="monthly-listeners-wrapper">
         <span>monthly listeners number*</span>
         <br />

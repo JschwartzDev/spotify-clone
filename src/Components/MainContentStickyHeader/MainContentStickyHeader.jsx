@@ -13,7 +13,7 @@ const MainContentStickyHeader = () => {
           <FontAwesomeIcon icon={faArrowLeft} className="icon mr-5" />
           <FontAwesomeIcon icon={faArrowRight} className="icon ml-5" />
         </div>
-        <div className="right-icons">
+        <div className="right-icons-main">
           <FontAwesomeIcon icon={faBell} className="icon mr-5 ml-5" />
           <FontAwesomeIcon icon={faUsers} className="icon mr-5 ml-5" />
           <FontAwesomeIcon icon={faUser} className="icon mr-5 ml-5" />

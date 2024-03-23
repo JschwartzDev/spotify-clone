@@ -35,6 +35,20 @@
   color: var(--lighter-grey);
 }
 
+.h-underline:hover {
+  text-decoration: underline;
+}
+
+.h-box:hover {
+  cursor: pointer;
+  background-color: var(--lighter-grey);
+}
+
+.h-box-light:hover {
+  cursor: pointer;
+  background-color: var(--lighter);
+}
+
 .flex-col-start {
   display: flex;
   flex-wrap: wrap;

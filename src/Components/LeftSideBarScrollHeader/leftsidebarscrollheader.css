@@ -1,3 +1,10 @@
 .scroll-header-wrapper {
   min-height: 10vh;
 }
+
+.left-icon-container {
+  cursor: pointer;
+}
+.left-icon-container:hover {
+  color: white;
+}

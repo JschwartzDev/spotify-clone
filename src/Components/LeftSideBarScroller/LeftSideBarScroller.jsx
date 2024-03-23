@@ -1,3 +1,4 @@
+import LeftSideBarScrollerPlaylist from "../LeftSidebarScrollerPlaylist/LeftSideBarScrollerPlaylist";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
@@ -13,17 +14,7 @@ const LeftSideBarScroller = () => {
         </div>
       </div>
       <div className="scroller p-5">
-        <div className="playlist flex-row-start">
-          <img
-            src="https://imgs.search.brave.com/oDCvLHdj04HFh_orzLnUhCoLjSsCz7Z17cwu3tFsIRk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yZXNv/dXJjZXMudGlkYWwu/Y29tL2ltYWdlcy8y/MjhiYjljNS8wYjZk/LzQwMTgvYjBjZC9j/NzkyM2JkM2JjY2Iv/NjQweDY0MC5qcGc"
-            alt=""
-            className="playlist-image r-b mr-10"
-          />
-          <div className="playlist-details">
-            <h3>playlist name</h3>
-            <span>details</span>
-          </div>
-        </div>
+        <LeftSideBarScrollerPlaylist />
       </div>
     </div>
   );

@@ -7,10 +7,15 @@
   .widget-icon-container {
     width: 100%;
     align-items: center;
+    cursor: pointer;
 
     .widget-icon {
       height: var(--icon-size);
       width: var(--icon-size);
     }
+  }
+
+  .widget-icon-container:hover {
+    color: white;
   }
 }

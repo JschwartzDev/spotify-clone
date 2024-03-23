@@ -2,7 +2,7 @@ const AlbumCover = ({ data }) => {
   return (
     <div className="album-cover-wrapper flex-col-start m-5 p-5 r-b w-100">
       <div className="w-100">
-        <h3 className="mb-10">{data}</h3>
+        <h3 className="mb-10 h-underline">{data}</h3>
       </div>
       <div className="w-100">
         <img
@@ -12,8 +12,8 @@ const AlbumCover = ({ data }) => {
         />
       </div>
       <div className="w-100">
-        <h3 className="mb-10">{data}</h3>
-        <span>name</span>
+        <h3 className="mb-10 h-underline">{data}</h3>
+        <span className="h-underline">name</span>
       </div>
     </div>
   );

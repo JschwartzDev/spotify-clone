@@ -7,6 +7,10 @@
   top: -5px;
 }
 
+.right-icons:hover {
+  color: white;
+}
+
 .scroller {
   height: 46vh;
   overflow-y: scroll;
