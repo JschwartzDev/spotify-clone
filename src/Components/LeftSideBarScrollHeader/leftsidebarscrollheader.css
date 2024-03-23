@@ -1,5 +1,9 @@
 .scroll-header-wrapper {
   min-height: 10vh;
   width: 100%;
-  border: 1px solid white;
+
+  .icon {
+    height: var(--icon-size);
+    width: var(--icon-size);
+  }
 }

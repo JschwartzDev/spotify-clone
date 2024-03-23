@@ -13,7 +13,7 @@ const AboutArtist = ({ data }) => {
         <br />
         <div className="flex-row-between pr-5">
           <span>monthly listeners</span>
-          <button className="follow-btn">follow</button>
+          <button className="button">follow</button>
         </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolor

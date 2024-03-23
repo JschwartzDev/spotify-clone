@@ -1,0 +1,6 @@
+.playlist-wrapper {
+  width: calc(22% + 7px);
+  height: 3rem;
+
+  background-color: var(--lighter-grey);
+}

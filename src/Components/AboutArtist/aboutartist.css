@@ -11,13 +11,4 @@
 
     border-radius: 50%;
   }
-
-  .follow-btn {
-    height: 2rem;
-    width: 30%;
-    color: var(--text-color);
-    background-color: var(--lighter-grey);
-    border: 1px solid var(--text-color);
-    border-radius: 15px;
-  }
 }

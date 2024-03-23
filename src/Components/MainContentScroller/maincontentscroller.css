@@ -1,0 +1,8 @@
+.main-content-scroller-wrapper {
+  min-height: calc(72vh + 2px);
+  width: 100%;
+
+  .playlists-wrapper {
+    height: 20vh;
+  }
+}

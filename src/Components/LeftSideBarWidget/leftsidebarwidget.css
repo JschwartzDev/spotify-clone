@@ -11,8 +11,8 @@
     align-items: center;
 
     .widget-icon {
-      height: 2rem;
-      width: 2rem;
+      height: var(--icon-size);
+      width: var(--icon-size);
     }
   }
 }

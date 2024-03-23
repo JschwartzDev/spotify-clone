@@ -1,0 +1,10 @@
+.scroller-wrapper {
+  height: calc(55vh - 10px);
+  width: 100%;
+}
+
+.scroller {
+  height: 46vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

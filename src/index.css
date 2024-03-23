@@ -1,15 +1,36 @@
 :root {
-  --dark-grey: #000001;
-  --light-grey: #121212;
+  --dark-grey: #000001; /*#000001*/
+  --light-grey: #121212; /*#121212*/
   --lighter-grey: #242424;
+
+  --spotify-green: "#1ed760";
 
   --text-color: lightgrey;
 
   --border-radius: 10px;
+
+  --icon-size: 1.5rem;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: calc(78vh - 10px);
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

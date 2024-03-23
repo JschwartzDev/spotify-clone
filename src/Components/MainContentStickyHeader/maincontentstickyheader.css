@@ -1,0 +1,19 @@
+.sticky-header-wrapper {
+  min-height: 15vh;
+  width: 100%;
+  color: var(--text-color);
+
+  .buttons-container {
+    width: 50%;
+
+    .button {
+      height: 2rem;
+      width: 20%;
+      color: var(--text-color);
+      background-color: var(--lighter-grey);
+      border: 1px solid var(--text-color);
+      border-radius: var(--border-radius);
+      cursor: pointer;
+    }
+  }
+}
