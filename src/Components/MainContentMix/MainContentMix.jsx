@@ -3,9 +3,9 @@ const MainContentMix = () => {
     <div className="mix-wrapper m-10 r-b">
       <div className="image">
         <img
-          src="https://images.unsplash.com/photo-1710065574765-a685385c6d9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMTEzODY2Mw&ixlib=rb-4.0.3&q=80&w=200"
+          src="https://imgs.search.brave.com/Uy6WNNHJ2GR-3Bd9m_luWVl14lkAGpnsh78E6OHMxGM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzcyLzhh/LzNhLzcyOGEzYTFm/ZDU0ZWIwYzMwN2Zk/ZGRiODFkZWQ2MTIw/LmpwZw"
           alt=""
-          className="r-b"
+          className="r-b w-100"
         />
       </div>
       <div className="details">

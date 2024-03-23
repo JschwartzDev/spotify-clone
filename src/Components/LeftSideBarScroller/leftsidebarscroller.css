@@ -2,6 +2,11 @@
   height: calc(55vh - 10px);
 }
 
+.right-span {
+  position: relative;
+  top: -5px;
+}
+
 .scroller {
   height: 46vh;
   overflow-y: scroll;

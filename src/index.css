@@ -4,8 +4,9 @@
   --lighter-grey: #242424;
 
   --spotify-green: "#1ed760";
+  --my-purple: #935fa7;
 
-  --text-color: lightgrey;
+  --text-color: #935fa7;
 
   --border-radius: 10px;
 
@@ -16,6 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 ::-webkit-scrollbar {

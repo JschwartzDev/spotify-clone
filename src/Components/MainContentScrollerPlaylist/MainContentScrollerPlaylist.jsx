@@ -6,7 +6,7 @@ const MainContentScrollerPlaylist = () => {
     <div className="playlist-wrapper flex-row-between m-10 r-b">
       <div className="flex-row-start">
         <img
-          src="https://images.unsplash.com/photo-1710065574765-a685385c6d9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMTEzODY2Mw&ixlib=rb-4.0.3&q=80&w=200"
+          src="https://imgs.search.brave.com/kB72c56g0dI8znBc3dmfkz5Ogwh7cLzSm-eKnU7Yk9E/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vc3RlcGhl/bmtwZWVwbGVzLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAx/Ni8wNy9lYWdsZXMt/Z3JlYXRlc3QtaGl0/cy1jb3Zlci0yLmpw/Zz9yZXNpemU9NTAw/LDQ5OCZzc2w9MQ"
           alt=""
           className="playlist-image r-b"
         />

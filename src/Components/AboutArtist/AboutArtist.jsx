@@ -1,13 +1,13 @@
 const AboutArtist = ({ data }) => {
   return (
     <div className="about-artist-wrapper r-b m-5 p-5 w-100">
-      <h3>About the artist</h3>
+      <h3 className="mb-10">About the artist</h3>
       <img
-        src="https://images.unsplash.com/photo-1710065574765-a685385c6d9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTcxMTEzODY2Mw&ixlib=rb-4.0.3&q=80&w=200"
+        src="https://imgs.search.brave.com/FdxtiIN_OM894SmP2JCHbVPnJpLW2EhDFPPf75Zxmfo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9sYXN0/Zm0uZnJlZXRscy5m/YXN0bHkubmV0L2kv/dS8zMDB4MzAwL2Qx/MmQyMWI4YzRiYjlh/NzUxNjAzZWEyOTBj/N2ExMmI3LmpwZw"
         alt=""
-        className="artist-image"
+        className="artist-image mb-10"
       />
-      <h3>{data}</h3>
+      <h3 className="mb-10">{data}</h3>
       <div className="monthly-listeners-wrapper">
         <span>monthly listeners number*</span>
         <br />
