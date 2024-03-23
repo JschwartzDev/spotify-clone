@@ -1,6 +1,14 @@
+import FooterSongDetails from "../FooterSongDetails/FooterSongDetails";
+import FooterSongControls from "../FooterSongControls/FooterSongControls";
+import FooterDeviceControls from "../FooterDeviceControls/FooterDeviceControls";
+
 const Footer = () => {
   return (
-    <div className="footer-wrapper flex-row-center">hello from footer</div>
+    <div className="footer-wrapper flex-row-between w-100">
+      <FooterSongDetails />
+      <FooterSongControls />
+      <FooterDeviceControls />
+    </div>
   );
 };
 

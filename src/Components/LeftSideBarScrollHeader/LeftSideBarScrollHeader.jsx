@@ -5,7 +5,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const LeftSideBarScrollHeader = () => {
   return (
-    <div className="scroll-header-wrapper r-b-top p-5">
+    <div className="scroll-header-wrapper r-b-top p-5 w-100">
       <div className="flex-row-between mb-10 p-5">
         <div className="left-icon-container">
           <FontAwesomeIcon icon={faBook} className="icon mr-10 ml-10" />

@@ -1,6 +1,9 @@
 .main-content-scroller-wrapper {
   min-height: calc(72vh + 2px);
-  width: 100%;
+  max-height: calc(72vh + 2px);
+
+  overflow-y: scroll;
+  overflow-x: hidden;
 
   .playlists-wrapper {
     height: 20vh;

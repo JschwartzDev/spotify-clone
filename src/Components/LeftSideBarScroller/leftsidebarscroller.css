@@ -1,6 +1,5 @@
 .scroller-wrapper {
   height: calc(55vh - 10px);
-  width: 100%;
 }
 
 .scroller {

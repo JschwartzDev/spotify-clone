@@ -1,0 +1,11 @@
+.volume-wrapper {
+  background-color: purple;
+  height: 3px;
+  width: 60px;
+  .volume {
+    border-radius: 3px;
+    width: 75%;
+    height: 3px;
+    background-color: white;
+  }
+}

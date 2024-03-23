@@ -4,7 +4,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
 const LeftSideBarScroller = () => {
   return (
-    <div className="scroller-wrapper">
+    <div className="scroller-wrapper w-100">
       <div className="icon-row flex-row-between p-5 mb-10">
         <FontAwesomeIcon icon={faSearch} className="icon ml-10 mt-10" />
         <div className="right-icons">

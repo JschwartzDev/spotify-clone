@@ -8,8 +8,6 @@
 
   .sub-wrapper {
     max-height: 88vh;
-
-    width: 100%;
     background-color: var(--dark-grey);
     overflow-x: hidden;
     overflow-y: scroll;

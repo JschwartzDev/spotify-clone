@@ -1,0 +1,11 @@
+.timer-wrapper {
+  height: 3px;
+  background-color: var(--light-grey);
+  border: 1px solid white;
+  border-radius: 1px;
+
+  .timer {
+    height: 3px;
+    background-color: white;
+  }
+}

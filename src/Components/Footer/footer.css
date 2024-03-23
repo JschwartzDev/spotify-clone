@@ -1,8 +1,5 @@
 .footer-wrapper {
   min-height: 10vh;
-  width: 100%;
-
   color: var(--text-color);
   background-color: var(--dark-grey);
-  border: 1px solid var(--text-color);
 }

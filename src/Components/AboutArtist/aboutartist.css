@@ -1,8 +1,6 @@
 .about-artist-wrapper {
   min-height: 20vh;
-  width: 100%;
-
-  background-color: var(--lighter-grey);
+  background-color: var(--light-grey);
   color: var(--text-color);
 
   .artist-image {

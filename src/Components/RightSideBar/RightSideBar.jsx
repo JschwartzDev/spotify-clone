@@ -4,7 +4,7 @@ import AboutArtist from "../AboutArtist/AboutArtist";
 const RightSideBar = () => {
   return (
     <div className="right-side-bar-wrapper flex-col-start">
-      <div className="sub-wrapper">
+      <div className="sub-wrapper w-100">
         <AlbumCover data={"hello"} />
         <AboutArtist data={"hello"} />
         <AboutArtist data={"hello"} />

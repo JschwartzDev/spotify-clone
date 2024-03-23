@@ -3,7 +3,7 @@ import MainContentScroller from "../MainContentScroller/MainContentScroller";
 
 const MainContent = () => {
   return (
-    <div className="main-content-wrapper flex-col-start mt-5 r-b">
+    <div className="main-content-wrapper flex-col-start mt-5 r-b-top">
       <MainContentStickyHeader />
       <MainContentScroller />
     </div>
