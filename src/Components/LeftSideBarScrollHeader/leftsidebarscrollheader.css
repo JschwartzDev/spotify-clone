@@ -1,0 +1,5 @@
+.scroll-header-wrapper {
+  min-height: 10vh;
+  width: 100%;
+  border: 1px solid white;
+}

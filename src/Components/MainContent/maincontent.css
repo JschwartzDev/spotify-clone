@@ -1,5 +1,6 @@
 .main-content-wrapper {
-  min-height: 80vh;
+  min-height: calc(88vh - 5px);
   width: 60%;
-  background-color: black;
+  background-color: var(--light-grey);
+  color: var(--text-color);
 }

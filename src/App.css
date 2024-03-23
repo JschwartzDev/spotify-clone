@@ -13,6 +13,7 @@
 
 .flex-col-center {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -43,6 +44,12 @@
 .r-b {
   border: 1px solid black;
   border-radius: var(--border-radius);
+}
+
+.r-b-top {
+  border: 1px solid black;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
 }
 
 .m-5 {
