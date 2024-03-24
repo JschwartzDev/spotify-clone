@@ -7,7 +7,7 @@ const LeftSideBarScroller = () => {
   return (
     <div className="scroller-wrapper w-100">
       <div className="icon-row flex-row-between p-5 mb-10">
-        <FontAwesomeIcon icon={faSearch} className="icon ml-10 mt-10" />
+        <FontAwesomeIcon icon={faSearch} className="icon ml-5 mt-10" />
         <div className="right-icons">
           <span className="right-span">Recents</span>
           <FontAwesomeIcon icon={faBars} className="icon ml-10 mr-10 mt-10" />

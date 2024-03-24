@@ -1,0 +1,11 @@
+.tour-dates-wrapper {
+  height: 35vh;
+  background-color: var(--light-grey);
+
+  .date-wrapper {
+    height: 10vh;
+    width: 10vh;
+
+    border: 1px solid var(--text-color);
+  }
+}

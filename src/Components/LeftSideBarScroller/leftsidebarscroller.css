@@ -9,6 +9,7 @@
 
 .right-icons:hover {
   color: white;
+  cursor: pointer;
 }
 
 .scroller {
