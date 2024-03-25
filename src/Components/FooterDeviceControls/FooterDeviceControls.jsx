@@ -9,18 +9,18 @@ import { faUpRightAndDownLeftFromCenter } from "@fortawesome/free-solid-svg-icon
 const FooterDeviceControls = () => {
   return (
     <div className="flex-row-center w-25">
-      <FontAwesomeIcon icon={faSquareCaretRight} class="icon ml-5 mr-5" />
-      <FontAwesomeIcon icon={faMicrophone} class="icon ml-5 mr-5" />
-      <FontAwesomeIcon icon={faLayerGroup} class="icon ml-5 mr-5" />
-      <FontAwesomeIcon icon={faComputer} class="icon ml-5 mr-5" />
-      <FontAwesomeIcon icon={faSquareCaretRight} class="icon ml-5 mr-5" />
-      <FontAwesomeIcon icon={faVolumeHigh} class="icon ml-5 mr-5" />
+      <FontAwesomeIcon icon={faSquareCaretRight} className="icon ml-5 mr-5" />
+      <FontAwesomeIcon icon={faMicrophone} className="icon ml-5 mr-5" />
+      <FontAwesomeIcon icon={faLayerGroup} className="icon ml-5 mr-5" />
+      <FontAwesomeIcon icon={faComputer} className="icon ml-5 mr-5" />
+      <FontAwesomeIcon icon={faSquareCaretRight} className="icon ml-5 mr-5" />
+      <FontAwesomeIcon icon={faVolumeHigh} className="icon ml-5 mr-5" />
       <div className="volume-wrapper ml-5">
         <div className="volume"></div>
       </div>
       <FontAwesomeIcon
         icon={faUpRightAndDownLeftFromCenter}
-        class="icon ml-5 mr-5"
+        className="icon ml-5 mr-5"
       />
     </div>
   );

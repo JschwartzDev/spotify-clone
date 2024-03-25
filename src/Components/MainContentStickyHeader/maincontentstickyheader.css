@@ -17,4 +17,11 @@
     border: 1px solid var(--lighter-grey);
     color: var(--lighter-grey);
   }
+
+  .search-input {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    background-color: var(--dark-grey);
+    outline: none;
+  }
 }

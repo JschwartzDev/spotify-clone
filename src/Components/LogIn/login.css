@@ -1,0 +1,8 @@
+.login-wrapper {
+  min-height: 100vh;
+  background-color: var(--dark-grey);
+
+  .submit {
+    height: 10vh;
+  }
+}

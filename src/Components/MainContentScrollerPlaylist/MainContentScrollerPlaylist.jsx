@@ -14,7 +14,7 @@ const MainContentScrollerPlaylist = () => {
       </div>
 
       <div className="play-button m-10">
-        <FontAwesomeIcon icon={faPlay} class="icon" />
+        <FontAwesomeIcon icon={faPlay} className="icon" />
       </div>
     </div>
   );

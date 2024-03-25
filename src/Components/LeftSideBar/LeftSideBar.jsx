@@ -1,9 +1,12 @@
 import LeftSideBarWidget from "../LeftSideBarWidget/LeftSideBarWidget";
 import LeftSideBarScroll from "../LeftSideBarScroll/LeftSideBarScroll";
-const LeftSideBar = () => {
+const LeftSideBar = ({ handleLogOut, handleSetSearching }) => {
   return (
     <div className="side-bar-wrapper flex-col-start r-b-top">
-      <LeftSideBarWidget />
+      <LeftSideBarWidget
+        handleLogOut={handleLogOut}
+        handleSetSearching={handleSetSearching}
+      />
       <LeftSideBarScroll />
     </div>
   );

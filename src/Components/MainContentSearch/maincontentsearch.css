@@ -1,0 +1,16 @@
+.main-content-search-wrapper {
+  min-height: 72vh;
+  max-height: 72vh;
+  border: 1px solid white;
+  overflow-y: scroll;
+
+  .recents-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35vh;
+
+    border: 1px solid white;
+  }
+}
