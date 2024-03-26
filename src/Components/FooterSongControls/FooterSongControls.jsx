@@ -7,7 +7,7 @@ import { faRepeat } from "@fortawesome/free-solid-svg-icons";
 
 const FooterSongControls = () => {
   return (
-    <div className="song-controls-wrapper flex-col-center w-50 p-10 mb-10">
+    <div className="song-controls-wrapper flex-col-center p-10 mb-10">
       <div className="control-row flex-row-center w-100">
         <FontAwesomeIcon icon={faShuffle} className="icon ml-10 mr-10" />
         <FontAwesomeIcon icon={faBackwardStep} className="icon ml-10 mr-10" />

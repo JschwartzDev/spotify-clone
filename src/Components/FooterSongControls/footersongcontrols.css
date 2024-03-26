@@ -1,3 +1,7 @@
+.song-controls-wrapper {
+  width: 45%;
+}
+
 .timer-wrapper {
   height: 3px;
   background-color: var(--light-grey);

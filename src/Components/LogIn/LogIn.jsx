@@ -11,11 +11,9 @@ const LogIn = ({ handleLogin }) => {
     let token = window.localStorage.getItem("token");
 
     if (!token && hash) {
-      token = hash
-        .substring(1)
-        .split("&")
-        .find((el) => el.startsWith("access_token"))
-        .split("-")[1];
+      //console.log(hash);
+      //console.log(hash.substring(14, hash.length - 34));
+      token = hash.substring(14, hash.length - 34);
 
       window.location.hash = "";
       window.localStorage.setItem("token", token);
@@ -28,7 +26,7 @@ const LogIn = ({ handleLogin }) => {
     <div className="login-wrapper w-100 flex-col-center">
       <button className="button submit flex-col-center">
         <a
-          href={`${AUTH_ENDPOIINT}?client_id=${APP_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}
+          href={`${AUTH_ENDPOIINT}?client_id=${APP_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}&scope=user-read-private playlist-read-private playlist-read-collaborative user-top-read user-read-recently-played`}
           className="w-100 h-100 flex-col-center"
         >
           Sign In

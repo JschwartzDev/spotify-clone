@@ -6,7 +6,7 @@ const RightSideBarCredits = () => {
         <h5 className="mr-5 h-underline">Show All</h5>
       </div>
       <div className="flex-row-between w-100 mr-5">
-        <div className="w-100">
+        <div className="w-50">
           <h4>Artist Name</h4>
           <h5>Main Artist</h5>
         </div>

@@ -12,7 +12,18 @@ const MainContentSearch = () => {
         <RecentSearchCard />
       </div>
       <h3 className="m-10 pl-5">Browse All Genres</h3>
-      <div className="genres-wrapper p-10">
+      <div className="genres-wrapper p-10 flex-row-between">
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
+        <GenresCard />
         <GenresCard />
       </div>
     </div>

@@ -5,7 +5,7 @@ import { faBell } from "@fortawesome/free-solid-svg-icons";
 import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 
-const MainContentStickyHeader = ({ isSearching }) => {
+const MainContentStickyHeader = ({ isSearching, handleSetSearchKey }) => {
   return (
     <div className="sticky-header-wrapper r-b-top p-10 w-100">
       <div className="icon-container flex-row-between mb-10 p-10">
@@ -16,7 +16,12 @@ const MainContentStickyHeader = ({ isSearching }) => {
           </div>
         </div>
         {isSearching ? (
-          <input type="text" className="r-b p-5 search-input w-50" />
+          <input
+            type="text"
+            className="r-b p-5 search-input w-50"
+            onChange={(e) => handleSetSearchKey(e)}
+            onKeyDown={(e) => handleSetSearchKey(e)}
+          />
         ) : (
           ""
         )}
