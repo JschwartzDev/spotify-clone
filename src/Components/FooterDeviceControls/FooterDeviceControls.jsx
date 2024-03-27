@@ -8,7 +8,7 @@ import { faUpRightAndDownLeftFromCenter } from "@fortawesome/free-solid-svg-icon
 
 const FooterDeviceControls = () => {
   return (
-    <div className="flex-row-center w-25">
+    <div className="device-controls-wrapper flex-row-center w-25">
       <FontAwesomeIcon icon={faSquareCaretRight} className="icon ml-5 mr-5" />
       <FontAwesomeIcon icon={faMicrophone} className="icon ml-5 mr-5" />
       <FontAwesomeIcon icon={faLayerGroup} className="icon ml-5 mr-5" />

@@ -11,4 +11,8 @@
     align-items: center;
     height: 35vh;
   }
+
+  .search-results-wrapper {
+    height: 90vh;
+  }
 }

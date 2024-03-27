@@ -3,3 +3,15 @@
   color: var(--text-color);
   background-color: var(--dark-grey);
 }
+
+@media screen and (max-width: 900px) {
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: sticky;
+    bottom: 0vh;
+  }
+}

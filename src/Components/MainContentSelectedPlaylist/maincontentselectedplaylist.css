@@ -1,0 +1,12 @@
+.selected-playlist-wrapper {
+  min-height: 65vh;
+  max-height: 65vh;
+  border: 1px solid white;
+  overflow-y: scroll;
+
+  .tracks-table {
+    th {
+      text-align: start;
+    }
+  }
+}

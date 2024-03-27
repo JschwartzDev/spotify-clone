@@ -3,3 +3,9 @@
   background-color: var(--light-grey);
   color: var(--text-color);
 }
+
+@media screen and (max-width: 900px) {
+  .side-bar-scroll-wrapper {
+    display: none;
+  }
+}

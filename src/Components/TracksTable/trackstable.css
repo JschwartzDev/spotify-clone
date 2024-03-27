@@ -1,0 +1,17 @@
+.tracks-table-wrapper {
+  min-height: 40vh;
+  max-height: 40vh;
+
+  overflow-y: scroll;
+
+  .tracks-table {
+    padding: 5px;
+    table {
+      border-spacing: 0px;
+
+      tr.h-box > td {
+        text-align: center;
+      }
+    }
+  }
+}

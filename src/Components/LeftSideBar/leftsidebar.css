@@ -3,3 +3,10 @@
   width: calc(20% - 10px);
   background-color: var(--dark-grey);
 }
+
+@media screen and (max-width: 900px) {
+  .side-bar-wrapper {
+    min-height: 20vh;
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+.recommended-card-wrapper {
+  height: 20vh;
+  width: 22%;
+}
+@media screen and (max-width: 900px) {
+  .recommended-card-name-div {
+    display: none;
+  }
+}

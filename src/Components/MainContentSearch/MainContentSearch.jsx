@@ -1,31 +1,29 @@
 import RecentSearchCard from "../RecentSearchCard/RecentSearchCard";
-import GenresCard from "../GenresCard/GenresCard";
+import TracksTable from "../TracksTable/TracksTable";
 
-const MainContentSearch = () => {
+const MainContentSearch = ({
+  artistTopTracks,
+  searchData,
+  handleSelectTrack,
+}) => {
   return (
     <div className="main-content-search-wrapper w-100">
-      <h3 className="m-10 pl-5">Recent Searches</h3>
-      <div className="recents-wrapper p-10">
-        <RecentSearchCard />
-        <RecentSearchCard />
-        <RecentSearchCard />
-        <RecentSearchCard />
-      </div>
-      <h3 className="m-10 pl-5">Browse All Genres</h3>
-      <div className="genres-wrapper p-10 flex-row-between">
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-        <GenresCard />
-      </div>
+      {searchData && (
+        <div className="search-results-wrapper w-100">
+          <h3 className="ml-5 mb-10 w-100">Top Tracks</h3>
+          <TracksTable
+            width={100}
+            trackList={artistTopTracks}
+            handleSelectTrack={handleSelectTrack}
+          />
+          <div className="flex-row-around w-100">
+            <h3 className="ml-5 w-100">Artist Albums</h3>
+            {searchData.map((album) => {
+              return <RecentSearchCard album={album} />;
+            })}
+          </div>
+        </div>
+      )}
     </div>
   );
 };

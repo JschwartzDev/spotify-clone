@@ -13,3 +13,9 @@
     overflow-y: scroll;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .right-side-bar-wrapper {
+    display: none;
+  }
+}

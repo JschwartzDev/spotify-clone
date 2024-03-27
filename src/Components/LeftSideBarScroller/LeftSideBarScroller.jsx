@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-const LeftSideBarScroller = ({ userPlaylists }) => {
+const LeftSideBarScroller = ({ userPlaylists, handleSetSelectedPlaylist }) => {
   return (
     <div className="scroller-wrapper w-100">
       <div className="icon-row flex-row-between p-5 mb-10">
@@ -19,8 +19,10 @@ const LeftSideBarScroller = ({ userPlaylists }) => {
               return (
                 <LeftSideBarScrollerPlaylist
                   key={playlist.id}
+                  playlistId={playlist.id}
                   playlistName={playlist.name}
                   playlistImage={playlist.images[2].url}
+                  handleSetSelectedPlaylist={handleSetSelectedPlaylist}
                 />
               );
             })

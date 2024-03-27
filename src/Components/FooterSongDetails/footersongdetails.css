@@ -4,3 +4,17 @@
     width: 15%;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .footer-details-wrapper {
+    display: none;
+    .footer-details-image {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .hide {
+    display: none;
+  }
+}

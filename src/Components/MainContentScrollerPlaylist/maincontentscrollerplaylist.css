@@ -4,3 +4,9 @@
 
   background-color: var(--lighter-grey);
 }
+
+@media screen and (max-width: 600px) {
+  .playlist-wrapper {
+    width: 75%;
+  }
+}

@@ -8,4 +8,62 @@
   .playlists-wrapper {
     height: 20vh;
   }
+
+  .dropdown-wrapper {
+    width: 30%;
+    .selected-genre-wrapper {
+      min-height: 3vh;
+    }
+  }
+  .options-wrapper {
+    height: 0vh;
+    .options {
+      position: relative;
+      top: 50px;
+      width: 30%;
+      height: 15vh;
+
+      overflow-y: scroll;
+
+      .option {
+        background-color: var(--light-grey);
+        color: var(--text-color);
+        outline: none;
+        border: none;
+        border-bottom: 1px solid var(--text-color);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .placeholder-wrapper {
+    min-height: 50vh;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-content-scroller-wrapper {
+    .playlists-wrapper {
+      height: 30vh;
+      overflow-y: scroll;
+    }
+
+    .mixes-wrapper {
+      height: 30vh;
+      overflow-y: scroll;
+    }
+
+    .dropdown-wrapper {
+      width: 50%;
+      .selected-genre-wrapper {
+        width: 100%;
+      }
+    }
+    .options-wrapper {
+      .options {
+        width: 50%;
+      }
+    }
+  }
 }

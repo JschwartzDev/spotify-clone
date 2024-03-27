@@ -2,11 +2,11 @@ import FooterSongDetails from "../FooterSongDetails/FooterSongDetails";
 import FooterSongControls from "../FooterSongControls/FooterSongControls";
 import FooterDeviceControls from "../FooterDeviceControls/FooterDeviceControls";
 
-const Footer = () => {
+const Footer = ({ token }) => {
   return (
     <div className="footer-wrapper flex-row-between w-100">
       <FooterSongDetails />
-      <FooterSongControls />
+      <FooterSongControls token={token} />
       <FooterDeviceControls />
     </div>
   );

@@ -12,6 +12,15 @@
     cursor: pointer;
   }
 
+  .playlist-name {
+    font-size: 2rem;
+  }
+
+  .collection-image {
+    width: 10%;
+    height: 10%;
+  }
+
   .button:hover {
     background-color: var(--text-color);
     border: 1px solid var(--lighter-grey);
@@ -23,5 +32,21 @@
     font-size: 1.5rem;
     background-color: var(--dark-grey);
     outline: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sticky-header-wrapper {
+    .button-group {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      .button {
+        font-size: 0.8rem;
+        width: 45%;
+        margin-top: 5px;
+      }
+    }
   }
 }
